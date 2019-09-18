@@ -16,7 +16,7 @@ class School
   end
   
   def grade(grade_level)
-    self.roster[grade]
+    self.roster[grade_level]
   end
   
 end
